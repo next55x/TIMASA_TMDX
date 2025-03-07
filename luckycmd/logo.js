@@ -4,7 +4,7 @@ ezra({ nomCom: "hacker",
     categorie: "Logo", reaction: "👨🏿‍💻" }, async (origineMessage, zk, commandeOptions) => {
     const { prefixe, arg, ms, repondre } = commandeOptions;
     if (!arg || arg == "") {
-        repondre("*__Exemple : * " + prefixe + "hacker E.n.b");
+        repondre("*__Exemple : * " + prefixe + "hacker Timnasa");
         return;
     }
     try {
@@ -15,7 +15,7 @@ ezra({ nomCom: "hacker",
         // console.log("&€"+res);
       //  let lien = "https://e1.yotools.net" + res;
         repondre("* processing...*");
-        await zk.sendMessage(origineMessage, { image: { url:anu.image}, caption: "* \t Logo made by E.n.b-MD*" }, { quoted: ms });
+        await zk.sendMessage(origineMessage, { image: { url:anu.image}, caption: "* \t Logo made by *𝐓𝐢𝐦𝐧𝐚𝐬𝐚 𝐦𝐝* " }, { quoted: ms });
     }
     catch (e) {
         repondre("🥵🥵 " + e);
@@ -24,7 +24,7 @@ ezra({ nomCom: "hacker",
 ezra({ nomCom: "dragonball", categorie: "Logo", reaction: "🐉" }, async (dest, zk, commandeOptions) => {
     let { arg, repondre, prefixe, ms } = commandeOptions;
     try {
-        const noArgMsg = `*_EXEMPLE *:  ${prefixe}dragonball Fredi`;
+        const noArgMsg = `*_EXEMPLE *:  ${prefixe}dragonball *𝐓𝐢𝐦𝐧𝐚𝐬𝐚 𝐦𝐝*`;
         //  if(arg=='') {await zok.sendMessage(dest,{text:noArgMsg},{quoted:infoMessage}); return;}
         if (arg == '' || !arg) {
             repondre(noArgMsg);
@@ -39,7 +39,7 @@ ezra({ nomCom: "dragonball", categorie: "Logo", reaction: "🐉" }, async (dest,
         await zk.sendMessage(dest, { text: " *\t Traitement en cours ...*" }, { quoted: ms });
        // var idImg = Object.values(imgInfo)[3];
        
-        await zk.sendMessage(dest, { image: { url: imgInfo.image }, caption: "* \t Logo by E.n.b-MD*" }, { quoted: ms });
+        await zk.sendMessage(dest, { image: { url: imgInfo.image }, caption: "* \t Logo by *𝐓𝐢𝐦𝐧𝐚𝐬𝐚 𝐦𝐝* " }, { quoted: ms });
     }
     catch (e) {
         repondre("🥵🥵 " + e);
@@ -50,7 +50,7 @@ ezra({ nomCom: "naruto", categorie: "Logo", reaction: "⛩" }, async (dest, zk, 
     let { ms, arg, repondre, prefixe } = commandeOptions;
     try {
         if (!arg || arg == '') {
-            repondre("*_Exemple : * " + prefixe + "naruto lucky");
+            repondre("*_Exemple : * " + prefixe + "naruto timnasa");
             return;
         }
         var nar = "https://en.ephoto360.com/naruto-shippuden-logo-style-text-effect-online-808.html";
@@ -59,7 +59,7 @@ ezra({ nomCom: "naruto", categorie: "Logo", reaction: "⛩" }, async (dest, zk, 
         var radio2 = "e0723d60-fc0d-421f-bf8f-a9b9b61e4be6";
         var img = await mumaker.ephoto("https://en.ephoto360.com/naruto-shippuden-logo-style-text-effect-online-808.html", arg.join(' '));
         
-        await zk.sendMessage(dest, { image: { url: img.image }, caption: "\t\t *Logo by E.n.b-MD *" }, { quoted: ms });
+        await zk.sendMessage(dest, { image: { url: img.image }, caption: "\t\t *Logo by *𝐓𝐢𝐦𝐧𝐚𝐬𝐚 𝐦𝐝* " }, { quoted: ms });
     }
     catch (e) {
         repondre("🥵🥵 " + e);
@@ -91,7 +91,7 @@ ezra({ nomCom: "naruto", categorie: "Logo", reaction: "⛩" }, async (dest, zk, 
 ezra({ nomCom: "didong", categorie: "Logo", reaction: "📱" }, async (dest, zk, commandeOptions) => {
     let { arg, repondre, prefixe, ms } = commandeOptions;
    try {
-     var titre = "\t* logo by E.N.B-XMD*";
+     var titre = "\t* logo by *𝐓𝐢𝐦𝐧𝐚𝐬𝐚 𝐦𝐝* ";
       var lien = "https://ephoto360.com/tao-anh-che-vui-tu-choi-cuoc-goi-voi-ten-cua-ban-930.html";
         if (!arg || arg == "") {
            repondre(`*exemple :* ${prefixe}didong fredi`)
@@ -385,7 +385,7 @@ ezra({ nomCom: "lightglow", categorie: "Logo", reaction: "🌟" }, async (dest, 
   const text = arg.join(" ");
   mumaker.textpro("https://textpro.me/create-light-glow-sliced-text-effect-online-1068.html", text)
     .then((data) => {
-      zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo by 𝗵𝗮𝗻𝘀' }, { quoted: ms });
+      zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo by 𝐓𝐢𝐦𝐧𝐚𝐬𝐚' }, { quoted: ms });
     })
     .catch((err) => {
       console.error("Une erreur s'est produite :", err);
@@ -434,11 +434,11 @@ ezra({nomCom:"purple",categorie:"Logo",reaction:"🧳"},async(dest,zk,commandeOp
     try{
       if(!arg||arg=="")
   {
-    repondre(prefixe+"purple Lucky");return;}
+    repondre(prefixe+"purple timnasa");return;}
       const lien="https://en.ephoto360.com/purple-text-effect-online-100.html"
       var img = await mumaker.ephoto(lien,arg);
       repondre(" processing ...")
-      await zk.sendMessage(dest,{image:{url:img.image},caption:"      *Logo by E.N.B-XMD*"});
+      await zk.sendMessage(dest,{image:{url:img.image},caption:"      *Logo by *𝐓𝐢𝐦𝐧𝐚𝐬𝐚 𝐦𝐝*"});
     }catch(e){repondre(e)}
   
 })
@@ -457,7 +457,7 @@ ezra({nomCom:"gold",categorie:"Logo",reaction:"🧚🏿‍♀️"},async(dest,zk
 
     var img = await mumaker.ephoto(lien,arg);
    repondre("processing ...")
-    await zk.sendMessage(dest,{image:{url:img.image},caption:" *Logo by E.N.B-XMD*"},{quoted:ms})
+    await zk.sendMessage(dest,{image:{url:img.image},caption:" *Logo by *𝐓𝐢𝐦𝐧𝐚𝐬𝐚 𝐦𝐝*  *"},{quoted:ms})
   }catch(e){repondre(e)}
 })
 
@@ -476,7 +476,7 @@ ezra({nomCom:"arena",categorie:"Logo",reaction:"🥵"},async(dest,zk,commandeOpt
 
     var img = await mumaker.ephoto(lien,arg.join(' '));
    repondre("processing ...")
-    await zk.sendMessage(dest,{image:{url:img.image},caption:" *Logo by E.N.B-XMD*"},{quoted:ms})
+    await zk.sendMessage(dest,{image:{url:img.image},caption:" *Logo by *𝐓𝐢𝐦𝐧𝐚𝐬𝐚 𝐦𝐝*"},{quoted:ms})
   }catch(e){repondre(e)}
 })
 
@@ -494,7 +494,7 @@ ezra({nomCom:"incandescent",categorie:"Logo",reaction:"😋"},async(dest,zk,comm
 
     var img = await mumaker.ephoto(lien,arg.join(' '));
    repondre("processing ...")
-    await zk.sendMessage(dest,{image:{url:img.image},caption:" *Logo by E.N.B-XMD *"},{quoted:ms})
+    await zk.sendMessage(dest,{image:{url:img.image},caption:" *Logo by *𝐓𝐢𝐦𝐧𝐚𝐬𝐚 𝐦𝐝*  *"},{quoted:ms})
   } catch(e){repondre(e)}
 })
 
@@ -502,7 +502,7 @@ ezra({ nomCom: "gif×1", categorie: "Logo", reaction: "😋" }, async (dest, zk,
   let { ms, arg, prefixe, repondre } = commandeOptions;
   try {
     if (!arg || arg === "") {
-      repondre(`${prefixe}gif×1 E.n.b-MD`);
+      repondre(`${prefixe}gif×1 *𝐓𝐢𝐦𝐧𝐚𝐬𝐚 𝐦𝐝* `);
       return;
     }
 
