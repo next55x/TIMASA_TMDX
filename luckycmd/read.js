@@ -12,7 +12,7 @@ ezra(config, async (responseHandler, args, context) => {
 
   try {
     if (!arg || arg.length === 0) {
-      return repondre("Ask for any book-related news, and lucky md will provide updates.");
+      return repondre("Ask for any book-related news, and Timnasa md will provide updates.");
     }
 
     const query = arg.join(" ");
