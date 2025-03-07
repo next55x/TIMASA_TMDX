@@ -70,7 +70,7 @@ const alea = (ext) => {
     }
 
     sticker = new Sticker(buffer, {
-      pack:"E.N.B-XMD" ,
+      pack:"TIMNASA-TMD" ,
       author: nomAuteurMessage,
       type:
         arg.includes("crop") || arg.includes("c")
@@ -252,7 +252,7 @@ ezra({ nomCom: "words", categorie: "Conversion", reaction: "😂" }, async (orig
     // Create the sticker
     const stickerMess = new Sticker(meme, {
       pack: nomAuteurMessage,
-      author: 'FREDI TECH',
+      author: 'TIMNASA TECH',
       type: StickerTypes.FULL,
       categories: ["🤩", "🎉"],
       id: "12345",
