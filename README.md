@@ -40,7 +40,7 @@ Click below to generate your session ID instantly.
 ## 🌍 **Host ENB XMD Anywhere**
 🚀 **Deploy on Heroku in One Click**  
 
-[![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/enbbrand84/ENB-XMD&template=https://github.com/enbbrand84/ENB-XMD.git)
+[![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/next55x/TIMASA_TMDX&template=https://github.com/next55x.git)
 
 💾 **Host on Discord / Other Platforms**  
 
