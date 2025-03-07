@@ -33,32 +33,32 @@ const date = moment().format('DD/MM/YYYY');
 ┃⊛│◆ 𝚁𝚊𝚖  : 𝟴/𝟭𝟯𝟮 𝗚𝗕
 ┃⊛│◆ 𝙳𝚊𝚝𝚎  : *${date}* 
 ┃⊛│◆ 𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖 : ${os.platform()}
-┃⊛│◆ 𝙲𝚛𝚎𝚊𝚝𝚘𝚛 : Enb Tech
+┃⊛│◆ 𝙲𝚛𝚎𝚊𝚝𝚘𝚛 : timnasa
 ┃⊛│◆ 𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜 : ${cm.length}
-┃⊛│◆ 𝚃𝚑𝚎𝚖𝚎 : FEZGON
+┃⊛│◆ 𝚃𝚑𝚎𝚖𝚎 : TIMNASA
 ┃⊛└▰▱▰▱▰▱▰▱➻
 ╰▱▰▱▰▱▰⊷▱▰▱▰▱❂\n${readmore}`;
     let menuMsg = `E.n.b 𝙼𝚍 𝙲𝚖𝚍`;
     for (const cat in coms) {
         menuMsg += `
 ╭▱▱▱✺ *${cat}* ✺▰▰▰⊷ 
-┊│┌▰▱▰⊷•∞•⊷▱▰▱⊛
-┊│┊
-┌┤┊ `;for (const cmd of coms[cat]) {
+┊│☉︎┌▰▱▰⊷•∞•⊷▱▰▱⊛
+┊│☉︎┊
+┌┤☉︎┊ `;for (const cmd of coms[cat]) {
           menuMsg += `          
-┊│┊☆  *${cmd}*`    
+┊│☉︎┊☉︎  *${cmd}*`    
         } 
         menuMsg +=`
-┊│└▰▱▰⊷•∞•⊷▱▰▱⊛  
+┊│☉︎└▰▱▰⊷•∞•⊷▱▰▱⊛  
 ╰▰▰▰═⊷✺•∞•✺⊷═▱▱▱⊷`
     }
     menuMsg += `
-> Made By Grayson\n
+> Made By 𝐓𝐈𝐌𝐍𝐀𝐒𝐀-𝐓𝐄𝐂𝐇\n
 `;
    var lien = mybotpic();
    if (lien.match(/\.(mp4|gif)$/i)) {
     try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Luckymd*, déveloper Fredie Tech" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *timnasamd*, déveloper timnasa Tech" , gifPlayback : true }, { quoted: ms });
     }
     catch (e) {
        console.log("🥵🥵 Menu erreur " + e);
@@ -68,7 +68,7 @@ const date = moment().format('DD/MM/YYYY');
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Luckymd*, déveloper Fredie Tech" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *timnasamd*, déveloper Timnasa Tech" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
