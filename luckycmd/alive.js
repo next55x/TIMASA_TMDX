@@ -46,7 +46,7 @@ const date = moment().format('DD/MM/YYYY');
  ${message}
  
  
- *E.N.B-XMD 2025*`
+ *𝐓𝐈𝐌𝐍𝐀𝐒𝐀 𝐓𝐌𝐃 2025*`
 
  if (lien.match(/\.(mp4|gif)$/i)) {
     try {
@@ -91,7 +91,7 @@ else {
     
 await addOrUpdateDataInAlive(texte , tlien)
 
-repondre('  E.n.b Md Is A Live 24hrs Enjoy To Use All Time🤗. ')
+repondre('  𝐓𝐈𝐌𝐍𝐀𝐒𝐀-𝐓𝐌𝐃 Is A Live 24hrs Enjoy To Use All Time🤗. ')
 
 }
     });
