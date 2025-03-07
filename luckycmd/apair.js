@@ -7,7 +7,7 @@ const {
 ezra({
   'nomCom': "pair",
   'aliases': ["session", "pair", "paircode", "qrcode"],
-  'reaction': '♂️',
+  'reaction': '🪁',
   'categorie': "General"
 }, async (_0x2ce843, _0x1c44fd, _0x32de8a) => {
   const {
@@ -16,11 +16,11 @@ ezra({
   } = _0x32de8a;
   try {
     if (!_0x8621a4 || _0x8621a4.length === 0) {
-      return _0x2e61d5("Example Usage: .code 25575259xxxx.");
+      return _0x2e61d5("Example Usage: .code 255784766591.");
     }
-    await _0x2e61d5("*Wait E.n.b-md is generating your pair code ✅...*");
+    await _0x2e61d5("*Wait 𝐓𝐈𝐌𝐍𝐀𝐒𝐀 𝐓𝐌𝐃 is generating your pair code ✅...*");
     const _0x386b0a = encodeURIComponent(_0x8621a4.join(" "));
-    const _0x1ea92d = "https://enb-ki44.onrender.com/code?number=" + _0x386b0a;
+    const _0x1ea92d = "https://timnasa-md42.onrender.com/code?number=" + _0x386b0a;
     const _0xb59e41 = await axios.get(_0x1ea92d);
     const _0x1b71f0 = _0xb59e41.data;
     if (_0x1b71f0 && _0x1b71f0.code) {
