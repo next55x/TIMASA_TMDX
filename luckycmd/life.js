@@ -3,10 +3,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const { ezra } = require("../fredi/ezra");
 ezra({ nomCom: "altest", reaction: "💐", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
     console.log("Commande saisie !!!s");
-    let z = '🅼🆈 🅽🅰🅼🅴 🅸🆂 *🅻🆄🅲🅺🆈 🅼🅳* ғᴇʀʀᴀʀɪ 🚗 \n\n ' + "i'm a whatsapp bot multi-device created ";
-    let d = ' by *ғʀᴇᴅɪᴇᴢʀᴀ255*';
+    let z = '*𝗺𝘆 𝗻𝗮𝗺𝗲 𝗶𝘀 𝗧𝗜𝗠𝗡𝗔𝗦𝗔 𝗧𝗘𝗖𝗛*\n\n ' + "i'm a whatsapp bot multi-device created ";
+    let d = ' by *𝐓𝐈𝐌𝐍𝐀𝐒𝐀-𝐓𝐄𝐂𝐇*';
     let varmess = z + d;
-    var img = 'https://files.catbox.moe/7irwqn.jpeg';
+    var img = 'https://files.catbox.moe/bq7ym6.jpg';
     await zk.sendMessage(dest, { image: { url: img }, caption: varmess });
     //console.log("montest")
 });
