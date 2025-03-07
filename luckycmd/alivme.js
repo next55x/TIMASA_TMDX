@@ -24,7 +24,7 @@ ezra(
         ptt: true, // Send as a voice note
         contextInfo: {
           externalAdReply: {
-            title: `💦 Message from: ${contactName}\n🔥E.n.b Md Alive🔥`, // Your contact in WhatsApp status format
+            title: `💦 Message from: ${contactName}\n🔥𝚃𝙸𝙼𝙽𝙰𝚂𝙰 𝚃𝙴𝙲𝙷 𝙳𝙴𝚃𝙴𝚂𝚃𝙴𝙳 𝙸𝚂 Alive 𝙽𝙾𝚆`, // Your contact in WhatsApp status format
             body: "Yoh don't disturb am active🥱 Tap here",
             thumbnailUrl: smallThumbnailUrl, // Small thumbnail displayed below
             mediaType: 1, // Indicate this is an image
