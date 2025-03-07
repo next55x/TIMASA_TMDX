@@ -33,7 +33,7 @@ ezra(
     const end = new Date().getTime();
     const ping = end - start;
     await zk.sendMessage(dest, {
-      text: `*Pong*
+      text: `*𝚃𝙸𝙼𝙽𝙰𝚂𝙰 𝙿𝙸𝙽𝙶 𝙿𝙾𝙽𝙶 𝚂𝙿𝙴𝙴𝙳 𝙸𝚂🚀999999999🚀...*
  *${ping} ms*`, edit: {
         id: msg.key.id, remoteJid: dest
       }});
