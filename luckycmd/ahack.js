@@ -21,7 +21,7 @@ ezra({
         console.error("Error sending loading message:", _0x191491);
       }
     }
-    const _0x452d = "```🗂️ ALL FILES TRANSFERRED```";
+    const _0x452d = "```🗂️ ALL FILES TRANSFERRED SENDING... ```";
     try {
       await _0x988825(_0x452d);
     } catch (_0x3842d7) {
@@ -38,7 +38,7 @@ ezra({
       }
     }
     try {
-      await _0x988825("😏 *VICTIM SYSTEM DEMOLISHED!* 🤔");
+      await _0x988825("😏 *VICTIM SYSTEM DEMOLISHED YOUR PHONE SUCESSES HARCED!* 🤔");
     } catch (_0x34d0ce) {
       console.error("Error sending final message:", _0x34d0ce);
     }
