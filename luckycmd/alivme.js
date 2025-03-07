@@ -3,15 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const { ezra } = require("../fredi/ezra");
 
 ezra(
-  { nomCom: "alive", reaction: "👊", nomFichier: __filename },
+  { nomCom: "alive", reaction: "🌟", nomFichier: __filename },
   async (dest, zk, commandeOptions) => {
     console.log("Alive command triggered!");
 
     // URLs and configurations
-    const fullImageUrl = "https://files.catbox.moe/7ttvmj.jpg"; // Full image URL
-    const smallThumbnailUrl = "https://files.catbox.moe/7ttvmj.jpg"; // Small thumbnail URL
+    const fullImageUrl = "https://files.catbox.moe/bq7ym6.jpg"; // Full image URL
+    const smallThumbnailUrl = "https://files.catbox.moe/bq7ym6.jpg"; // Small thumbnail URL
     const randomAudio = "https://files.catbox.moe/wdap4t.mp3"; // Voice note URL
-    const sourceUrl = "https://whatsapp.com/channel/0029Vb2NqkvBPzjPEvFiYa0R"; // Channel link
+    const sourceUrl = "https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31"; // Channel link
     const contactName = commandeOptions?.ms?.pushName || "Unknown Contact"; // Sender's name or "Unknown Contact"
 
     try {
@@ -55,10 +55,10 @@ ezra(
     console.log("Alive command triggered!");
 
     // URLs and configurations
-    const fullImageUrl = "https://files.catbox.moe/7ttvmj.jpg"; // Full image URL
-    const smallThumbnailUrl = "https://files.catbox.moe/7ttvmj.jpg"; // Small thumbnail URL
+    const fullImageUrl = "https://files.catbox.moe/bq7ym6.jpg"; // Full image URL
+    const smallThumbnailUrl = "https://files.catbox.moe/bq7ym6.jpg"; // Small thumbnail URL
     const randomAudio = "https://files.catbox.moe/wdap4t.mp3"; // Voice note URL
-    const sourceUrl = "https://whatsapp.com/channel/0029Vb2NqkvBPzjPEvFiYa0R"; // Channel link
+    const sourceUrl = "https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31"; // Channel link
     const contactName = commandeOptions?.ms?.pushName || "Unknown Contact"; // Sender's name or "Unknown Contact"
 
     try {
