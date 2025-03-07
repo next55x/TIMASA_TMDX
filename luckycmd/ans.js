@@ -11,7 +11,7 @@ ezra({nomCom:"timnasa",reaction:"🤷",categorie:"IA"},async(dest,zk,commandeOpt
   const {repondre,ms,arg}=commandeOptions;
   
     if(!arg || !arg[0])
-    {return repondre("I'm listening to you.")}
+    {return repondre("𝚢𝚎𝚜 𝚝𝚒𝚖𝚗𝚊𝚜𝚊 𝚒'𝚖 𝚑𝚎𝚛𝚎 𝚝𝚘𝚍𝚊𝚢 𝚒'𝚖 𝚛𝚎𝚜𝚎𝚗𝚒𝚗𝚐 𝚝𝚘 𝚢𝚘𝚞🌚.")}
     //var quest = arg.join(' ');
   try{
     
@@ -58,7 +58,7 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
       const response = await axios.get(`http://api.maher-zubair.tech/ai/photoleap?q=${image}`);
       
       const data = response.data;
-      let caption = '*bing images by UTYATYA GRAYSON*';
+      let caption = '*bing images by 𝚃𝙸𝙼𝙽𝙰𝚂𝙰 𝚃𝙴𝙲𝙷*';
       
       if (data.status == 200) {
         // Utiliser les données retournées par le service
