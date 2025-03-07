@@ -8,7 +8,7 @@ ezra({ nomCom: "fancy", categorie: "Fun", reaction: "✍️" }, async (dest, zk,
 
     try {
         if (id === undefined || text === undefined) {
-            return await repondre(`\nExemple : ${prefixe}fancy 10 E.n.b MD 2025\n` + String.fromCharCode(8206).repeat(4001) + fancy.list('E.N.B-XMD 2025', fancy));
+            return await repondre(`\nExemple : ${prefixe}fancy 10 TIMNASA-TMD 2025\n` + String.fromCharCode(8206).repeat(4001) + fancy.list('TIMNASA-TMD 2025', fancy));
         }
 
         const selectedStyle = fancy[parseInt(id) - 1];
