@@ -19,7 +19,7 @@ ezra({ nomCom: 'quote', categorie: 'Group' }, async (dest, zk, commandeOptions) 
 👤 Character: ${quote.character}
 💬 Quote: ${quote.quote}
 
-Powered by *GRAYSON*`);
+Powered by *TIMNASA-MD*`);
         });
     } catch (e) {
       repondre('Erreur lors de la génération de la citation : ' + e.message);
@@ -31,13 +31,13 @@ Powered by *GRAYSON*`);
       fetch('https://animechan.xyz/api/random/character?name=' + query)
         .then((response) => response.json())
         .then(async (quote) => {
-          repondre(`E.n.b-MD
+          repondre(`TIMNASA-TMD
 
 🎬 Anime: ${quote.anime}
 👤 Character: ${quote.character}
 💬 Quote: ${quote.quote}
 
-Powered by *GRAYSON*`);
+Powered by *TIMNASA-TMD*`);
         });
     } catch (e) {
       repondre('Erreur lors de la génération de la citation : ' + e.message);
