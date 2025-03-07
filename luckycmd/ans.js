@@ -6,7 +6,7 @@ const { default: axios } = require('axios');
 
 
 
-ezra({nomCom:"fred",reaction:"🤷",categorie:"IA"},async(dest,zk,commandeOptions)=>{
+ezra({nomCom:"timnasa",reaction:"🤷",categorie:"IA"},async(dest,zk,commandeOptions)=>{
 
   const {repondre,ms,arg}=commandeOptions;
   
