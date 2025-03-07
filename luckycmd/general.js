@@ -2,7 +2,7 @@ const { ezra } = require("../fredi/ezra");
 const {getAllSudoNumbers,isSudoTableNotEmpty} = require("../luckydatabase/sudo")
 const conf = require("../set");
 
-ezra({ nomCom: "owner", categorie: "luckymd-devs", reaction: "🚜" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "owner", categorie: "timnasa-devs", reaction: "🚜" }, async (dest, zk, commandeOptions) => {
     const { ms , mybotpic } = commandeOptions;
     
   const thsudo = await isSudoTableNotEmpty()
@@ -51,16 +51,16 @@ ezra({ nomCom: "owner", categorie: "luckymd-devs", reaction: "🚜" }, async (de
   }
 });
 
-ezra({ nomCom: "dev", categorie: "luckymd-devs", reaction: "🚜" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "dev", categorie: "timnasa-devs", reaction: "🚜" }, async (dest, zk, commandeOptions) => {
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "GRAYSON", numero: "255615914136" },
-      { nom: "UTYATYA", numero: "255793123171" },
+      { nom: "TIMNASA-TMD", numero: "255784766591" },
+      { nom: "TIMNASA-TECH", numero: "255756469954" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "Uuhh Hellow This Is E.n.b Md Dev Contacts Check✅:\n\n";
+    let message = "Uuhh Hellow This TIMNASA-TMD Dev Contacts Check✅:\n\n";
     for (const dev of devs) {
       message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
@@ -91,11 +91,11 @@ else {
 }
 });
 
-ezra({ nomCom: "support", categorie: "luckymd-devs" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "support", categorie: "timnasa-devs" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
   repondre("look on pm sir ")
-  await zsendMessage(auteurMessage,{text :`https://whatsapp.com/channel/0029Vb2NqkvBPzjPEvFiYa0R`},{quoted :ms})
+  await zsendMessage(auteurMessage,{text :`https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31`},{quoted :ms})
 
 })
 
@@ -103,8 +103,8 @@ ezra({ nomCom: "developer", categorie: "General", reaction: "🚜" }, async (des
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "GRAYSON", numero: "255793123171" },
-      { nom: "UTYATYA", numero: "255615914136" },
+      { nom: "TIMNASA-TMD", numero: "25584766591" },
+      { nom: "TIMNASA-MD", numero: "255756469954" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
