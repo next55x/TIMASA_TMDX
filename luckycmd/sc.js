@@ -40,23 +40,23 @@ const date = moment().format('DD/MM/YYYY');
 ❂━━━➳════⊷════➳━━━━❂
 
 *GITHUB LINK*
-> https://github.com/enbbrand84
+> https://github.com/next5x
 
-*TELEGRAM GROUP*
-> https://chat.whatsapp.com/DBjYIsfoTNnA2Wfoj552EE
+*WAPP-GROUP*
+> https://chat.whatsapp.com/BgNXVP0zSl8KqUrLFfdJMP
 
 *FOR DEVELOPER T.ME*
-> https://t.me/freditech
+> https://t.me/255784766591
 
 *WHATSAPP CHANNEL*
-> https://whatsapp.com/channel/0029Vb2NqkvBPzjPEvFiYa0R
+> https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31
 
 *FOR MORE INFO TAP ON THE LINK BELOW*
-> https://github.com/enbbrand84/ENB-XMD
+> https://github.com/Next5x/TIMNASA_TMD1
 ╭──━━━━═════════━━━━⦿
 ┃ ❂━━━════➳════━━━━❂
 ┃▓▒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-┃▓▒ *DEV* : *E.n.b BOT*
+┃▓▒ *DEV* : *TIMNASA-TMD BOT*
 ┃ ❂━━━════➳════━━━━❂
 ⁠⁠⁠⁠╰──━━━━═════════━━━━⦿ 
   `;
@@ -64,7 +64,7 @@ const date = moment().format('DD/MM/YYYY');
 let menuMsg = `
      ╭──━━━━══⊷══━━━━⦿
      ┃ ❂━━━━━━━━━━━━❂
-     ┃▓ E.N.B-XMD
+     ┃▓ TIMNASA-TMD 
      ┃ ❂━━━━━━━━━━━━❂
      ╰──━━━━══⊷══━━━━⦿
 ❂━━━━═════⊷═════━━━━❂
@@ -75,7 +75,7 @@ let menuMsg = `
 
    if (lien.match(/\.(mp4|gif)$/i)) {
     try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "I am *Lucky Md*, Developed By Fredie Sir" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "I am *Timnasa Md*, Developed By timnasa Sir" , gifPlayback : true }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
@@ -85,7 +85,7 @@ let menuMsg = `
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "I am *LUCKY MD V7*, Developed By Fredie Sir" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "I am *TIMNASA TMD*, Developed By Timnasa Sir" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
