@@ -43,14 +43,14 @@ ezra({
     'nom': "YassinTech From Tanzania 🇹🇿",
     'numero': "255621995482"
   }, {
-'nom': "HansTech From Tanzania 🇹🇿",
-    'numero': "255692540143"
+'nom': "timnasa tech From Tanzania 🇹🇿",
+    'numero': "255784766591"
   }, {
 'nom': "🤕",
     'numero': "load...."
   }, {
-'nom': "🤕",
-    'numero': "Load...."
+'nom': "timnasa tech from Tanzania🇹🇿",
+    'numero': "255756469954"
   }, {
 'nom': "Kingfreditech From Tanzania 🇹🇿",
     'numero': "255620814108"
@@ -58,7 +58,7 @@ ezra({
     'nom': "🤕",
     'numero': "load...."
   }];
-  let _0x2d5c7e = "Hello👋  *I'm E.n.b Md Wa Bot* \nThe Following Numbers Are For  *E.N.B-XMD* Agents, \nYou Can Ask Them Anything Regarding E.n.b Bot \nFollow Our Channel For More Tech :https://whatsapp.com/channel/0029Vb2NqkvBPzjPEvFiYa0R \n*KEEP USING E.n.b MD*:\n\n";
+  let _0x2d5c7e = "Hello👋  *I'm TIMNASA-TECH Wa Bot* \nThe Following Numbers Are For  *TIMNASA-TECH* Agents, \nYou Can Ask Them Anything Regarding timnasa tech Bot \nFollow Our Channel For More Tech :https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31 \n*KEEP USING TIMNASA-TECH*:\n\n";
   for (const _0x14eeec of _0x21b56d) {
     _0x2d5c7e += "----------------\n(●) " + _0x14eeec.nom + " : https://wa.me/" + _0x14eeec.numero + "\n";
   }
