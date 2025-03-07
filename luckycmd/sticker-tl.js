@@ -49,7 +49,7 @@ ezra({
 
       const stickerObject = new Sticker(fileBufferResponse.data, {
         pack: messageAuthor,
-        author: "LUCKY_MD",
+        author: "TIMNASA_TMD",
         type: StickerTypes.FULL,
         categories: ['🤩', '🎉'],
         id: "12345",
