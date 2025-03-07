@@ -31,13 +31,13 @@ ezra({ nomCom: "deployer", categorie: "General" }, async (dest, zk, commandeOpti
 const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
-  let infoMsg =  `> Hello ${nomAuteurMessage} you requested for my deployer😌\n *${s.OWNER_NAME}* is my Charming good looking deployer🍂💋.\n\n> Powered by E.N.B-XMD `;
+  let infoMsg =  `> Hello ${nomAuteurMessage} you requested for my deployer😌\n *${s.OWNER_NAME}* is my Charming good looking deployer🍂💋.\n\n> Powered by 𝚃𝙸𝙼𝙽𝙰𝚂𝙰-𝚃𝙼𝙳 `;
 
    var lien = mybotpic();
 
    if (lien.match(/\.(mp4|gif)$/i)) {
     try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Lucky Md*, déveloper Fredi Tech" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *𝚃𝙸𝙼𝙽𝙰𝚂𝙰-𝚃𝙼𝙳*, déveloper Timnasa Tech" , gifPlayback : true }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
@@ -47,7 +47,7 @@ const date = moment().format('DD/MM/YYYY');
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Lucky Md*, déveloper Fredi Tech" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *𝚃𝙸𝙼𝙽𝙰𝚂𝙰-𝚃𝙴𝙲𝙷*, déveloper Timnasa Tech" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
