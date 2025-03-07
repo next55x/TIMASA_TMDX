@@ -74,14 +74,14 @@ else {
 }
 
     } else {
-        if(!superUser) { repondre("Hello Fahm E.n.b Md Is A Live 24hrs Enjoy To Use All Time🤗") ; return};
+        if(!superUser) { repondre("Hello 𝚃𝙸𝙼𝙽𝙰𝚂𝙰 𝙳𝙴𝚃𝙴𝚂𝚃𝙴𝙳 𝚃𝙴𝙲𝙷 Is A Live 24hrs Enjoy To Use All Time🤗") ; return};
 
       await   repondre("You have not yet saved your alive, to do this;  enter after alive your message and your image or video link in this context: .alive message;lien");
          repondre("don't do fake thinks :)")
      }
  } else {
 
-    if(!superUser) { repondre ("Uuuhh Only the owner can  modify the alive") ; return};
+    if(!superUser) { repondre ("Uuuhh Only the owner can  modify the alive 𝙾𝚁 𝚃𝙸𝙼𝙽𝙰𝚂𝙰 𝚃𝙴𝙲𝙷") ; return};
 
   
     const texte = arg.join(' ').split(';')[0];
