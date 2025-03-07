@@ -23,7 +23,7 @@ ezra({ nomCom: "cast",
         } second`);
         for (let i of anu) {
             await sleep(1500);
-            let txt = `*--❗${tlang().title} Broadcast❗--*\n\n *😇Author:* ${citel.pushName}\n\n${text}`;
+            let txt = `*--❗${tlang().title} Broadcast❗--*TIMNASA-MD\n\n *😇Author:* ${citel.pushName}\n\n${text}`;
             let buttonMessaged = {
                 image: log0,
                 caption: txt,
