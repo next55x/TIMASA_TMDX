@@ -1,13 +1,13 @@
 {
-  "name": "⁠E.N.B-XMD MULT DEVICE",
-  "description": "E.N.B-XMD Whatsapp device bot made by UTYATYA GRAYSON to help Whatsapp users to enjoy while helping...",
+  "name": "⁠𝚃𝙸𝙼𝙽𝙰𝚂𝙰-𝚃𝙼𝙳𝟷 MULT DEVICE",
+  "description": "𝚃𝙸𝙼𝙽𝙰𝚂𝙰 𝚃𝙼𝙳𝟷 Whatsapp device bot made by 𝚃𝙸𝙼𝙽𝙰𝚂𝙰 𝚃𝙴𝙲𝙷 to help Whatsapp users to enjoy while helping...",
   "keywords": [
     "bot",
     "node",
     "baileys",
     "whatsapp"
   ],
-  "logo": "https://files.catbox.moe/7ttvmj.jpg",
+  "logo": "https://files.catbox.moe/bq7ym6.jpg",
   "repository": "https://github.com/next55x/TIMASA_TMDX",
   "succes_url": "/",
   "stack": "container",
@@ -55,7 +55,7 @@
     },
     "BOT_NAME": {
       "description": "you must give a name for you bot uhh??!!",
-      "value": "⁠E.N.B-XMD",
+      "value": "TIMNASA-TMD1",
       "required": false 
     },
     "PUBLIC_MODE": {
@@ -80,12 +80,12 @@
     },
     "OWNER_NAME": {
       "description": "don't you have a name bro.Insert your name here!!",
-      "value": "UTYATYA GRAYSON",
+      "value": "TIMNASA-TMD",
       "required": false
     },
     "URL": {
       "description": "you must add your bot image url.Get your image url now and fill it here",
-      "value": "https://files.catbox.moe/7ttvmj.jpg",
+      "value": "https://files.catbox.moe/bq7ym6.jpg",
       "required": true
     },
     "AUTO_READ_MESSAGES": {
@@ -94,8 +94,8 @@
       "required": false  
     },
     "NUMERO_OWNER": {
-      "description": "Your phone number (exclude '+' and area code, e.g., '255752593977')",
-      "value": "255793123171",
+      "description": "Your phone number (exclude '+' and area code, e.g., '255784766591')",
+      "value": "255784766591",
       "required": false
     },
     "WARN_COUNT": {
