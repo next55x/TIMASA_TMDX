@@ -6,7 +6,7 @@ const {
 let dynamicForks = 5000;
 const fetchGitHubRepoDetails = async () => {
   try {
-    const _0x1c6838 = await axios.get("https://api.github.com/repos/enbbrand84/ENB-XMD");
+    const _0x1c6838 = await axios.get("https://github.com/Next5x/TIMNASA_TMD1");
     const {
       name: _0x4ae93b,
       stargazers_count: _0x27ef27,
@@ -30,7 +30,7 @@ const fetchGitHubRepoDetails = async () => {
     return null;
   }
 };
-const commands = ["git", "repo", "er", "rep", "epl", "last", "liverpool", "anfield", "script", 'cs'];
+const commands = ["git", "repo"last","anfield", "script", 'cs'];
 commands.forEach(_0x30efd7 => {
   ezra({
     'nomCom': _0x30efd7,
@@ -54,7 +54,7 @@ commands.forEach(_0x30efd7 => {
       url: _0x35610a
     } = _0xec02f3;
     const _0x203945 = moment().tz("Africa/Dodoma").format("DD/MM/YYYY HH:mm:ss");
-    const _0x1cd310 = "\n😉 *" + _0x2f3ef9 + " REPO INFO* 😋\n\n👊 *Name:* " + _0x2f3ef9 + "\n🎖️ *Stars:* " + _0x104bd8.toLocaleString() + "\n🥂 *Forks:* " + _0x83a01e.toLocaleString() + "\n👁️ *Watchers:* " + _0x517909.toLocaleString() + "\n‼️ *Open Issues:* " + _0x571494.toLocaleString() + "\n🧑‍💻 *Owner:* " + _0x1b991d + "\n\n⌚ *Fetched on:* " + _0x203945 + "\n\n🔗 *Repo Link:* " + _0x35610a + "\n\n⚒️ Created By *grayson*\n\nStay using and follow my updates!";
+    const _0x1cd310 = "TIMNASA-TMD\n😉 *" + _0x2f3ef9 + " REPO INFO* 😋\n\n👊 *Name:* " + _0x2f3ef9 + "\n🎖️ *Stars:* " + _0x104bd8.toLocaleString() + "\n🥂 *Forks:* " + _0x83a01e.toLocaleString() + "\n👁️ *Watchers:* " + _0x517909.toLocaleString() + "\n‼️ *Open Issues:* " + _0x571494.toLocaleString() + "\n🧑‍💻 *Owner:* " + _0x1b991d + "\n\n⌚ *Fetched on:* " + _0x203945 + "\n\n🔗 *Repo Link:* " + _0x35610a + "\n\n⚒️ Created By *grayson*\n\nStay using and follow my updates!";
     try {
       await _0x23108e.sendMessage(_0x3247d3, {
         'text': _0x1cd310,
@@ -62,11 +62,11 @@ commands.forEach(_0x30efd7 => {
           'externalAdReply': {
             'title': "🤝 Stay Updated with grayson",
             'body': "Tap here for the latest updates!",
-            'thumbnailUrl': "https://files.catbox.moe/7ttvmj.jpg",
+            'thumbnailUrl': "https://files.catbox.moe/bq7ym6.jpg",
             'mediaType': 0x1,
             'renderLargerThumbnail': true,
-            'mediaUrl': "https://whatsapp.com/channel/0029Vb2NqkvBPzjPEvFiYa0R",
-            'sourceUrl': "https://whatsapp.com/channel/0029Vb2NqkvBPzjPEvFiYa0R"
+            'mediaUrl': "https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31",
+            'sourceUrl': "https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31"
           }
         }
       });
