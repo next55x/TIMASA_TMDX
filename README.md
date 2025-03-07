@@ -3,7 +3,7 @@
 
 
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=1000&color=0000FF&center=true&vCenter=true&width=815&height=60&lines=𝚃𝙸𝙼𝙽𝙰𝚂𝙰+𝚃𝙴𝙲𝙷)](https://git.io/typing-svg) 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=1000&color=0000FF&center=true&vCenter=true&width=815&height=60&lines=𝚆𝙰𝚃𝚂𝙰𝙿𝙿.𝙱𝙾𝚃+𝙱𝚈+𝚃𝙸𝙼𝙽𝙰𝚂𝙰+𝚃𝙴𝙲𝙷)](https://git.io/typing-svg) 
 
 
 
@@ -90,9 +90,9 @@
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-## CONTACT NJABULO JB 
+## 𝚃𝙸𝙼𝙽𝙰𝚂𝙰 𝙲𝙾𝙽𝚃𝙰𝙲𝚃
   
-<a href="https://wa.me/26777821911"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="13%"> </a>
+<a href="https://wa.me/255784766591"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="13%"> </a>
   <a href="https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="13%"> </a>
   <a href="https://www.facebook.com/profile.php?id=100094314013209"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/Instagram2.png" width="14%"> </a>
   <a href="https://www.facebook.com/profile.php?id=100094314013209"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/Facebook.png" width="15%"> </a><a href="https://github.com/Next5x/TIMNASA_TMD1"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/devto.png" width="15%"> </a><a href="Njabulo "> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/twitter.png" width="13%"> </a>
