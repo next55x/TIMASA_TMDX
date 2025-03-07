@@ -3,15 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const { ezra } = require("../fredi/ezra");
 const { conf } = require('../set')
 ezra(
-    { nomCom: "E.n.bmd", reaction: "👊", nomFichier: __filename },
+    { nomCom: "TIMNASA-TMD", reaction: "👊", nomFichier: __filename },
     async (dest, zk, commandeOptions) => {
         console.log("Commande saisie !!!s");
         let z =
-            "Hello I'm *✧⁠E.N.B-XMD✧* \n\n " +
+            "Hello I'm *TIMNASA-TMD✧* \n\n " +
             "I'm a Whatsapp Bot Multi-Device";
-        let d = " Made By *Grayson Sir*";
+        let d = " Made By *timnasa Sir*";
         let varmess = z + d;
-        var img = "https://files.catbox.moe/7ttvmj.jpg";
+        var img = "https://files.catbox.moe/bq7ym6.jpg";
         await zk.sendMessage(dest, { image: { url: img }, caption: varmess });
         //console.log("montest")
     }
@@ -52,7 +52,7 @@ const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
             + 'FN:Fredie Sir\n' // full name
             + 'ORG:Ashoka Uni;\n' // the organization of the contact
-            + 'TEL;type=CELL;type=VOICE;waid=255752593977:+255752593977\n' // WhatsApp ID + phone number
+            + 'TEL;type=CELL;type=VOICE;waid=255784766591:+255756469954\n' // WhatsApp ID + phone number
             + 'END:VCARD'
 const sentMsg5  = await zk.sendMessage(
     dest,
@@ -83,7 +83,7 @@ const sentMsg6 = await zk.sendMessage(dest, buttonMessage)
 //send a template message!
 const templateButtons = [
     {index: 1, urlButton: {displayText: '⭐ Star Baileys on GitHub!', url: 'https://github.com/adiwajshing/Baileys'}},
-    {index: 2, callButton: {displayText: 'Call me!', phoneNumber: '255752593977'}},
+    {index: 2, callButton: {displayText: 'Call me!', phoneNumber: '255784766591'}},
     {index: 3, quickReplyButton: {displayText: 'This is a reply, just like normal buttons!', id: 'id-like-buttons-message'}},
 ]
 
@@ -108,7 +108,7 @@ const sections = [
 	title: "Section 2",
 	rows: [
 	    {title: "Option 3", rowId: "option3"},
-	    {title: "Option 4", rowId: "option4", description: "This is a description Lucky Md"}
+	    {title: "Option 4", rowId: "option4", description: "This is a description timnasa Md"}
 	]
     },
 ]
