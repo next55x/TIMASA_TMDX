@@ -42,7 +42,7 @@ zokou({
 
         // Format the message to send to the user
         const formattedMessage = `
-*E.n.b MD PLANET LYRICS FINDER*
+*TIMNASA TMD PLANET LYRICS FINDER*
 *Title:* ${title}
 *Artist:* ${artist}
 
@@ -57,7 +57,7 @@ ${lyrics}
 
     } catch (error) {
         // Handle any errors that occur
-        repondre(`Error: I was unable to fetch the lyrics. Please try again later.\n\n${error.message}`);
+        repondre(`Error: I was unable to fetch the lyrics. Please try again later.TIMNASA-TMD\n\n${error.message}`);
         console.log(error);
     }
 });
