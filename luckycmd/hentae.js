@@ -11,7 +11,7 @@ ezra({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by Lucky  Md*`;
+    const cap = `*Screenshot taken by Timnasa md*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -42,7 +42,7 @@ ezra({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by Lucky Md*`;
+    const cap = `*Screenshot taken by Timnasa Md*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -73,7 +73,7 @@ ezra({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by Lucky Md*`;
+    const cap = `*Screenshot taken by Timnasa Md*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -104,7 +104,7 @@ ezra({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by Lucky Md*`;
+    const cap = `*Screenshot taken by Timnasa Md*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -136,7 +136,7 @@ ezra({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by Lucky Md*`;
+    const cap = `*Screenshot taken by Timnasa Md*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -167,7 +167,7 @@ ezra({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by Lucky Md*`;
+    const cap = `*Screenshot taken by Timnasa Md*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -199,7 +199,7 @@ ezra({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot take by Lucky Md*`;
+    const cap = `*Screenshot take by Timnasa Md*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -231,7 +231,7 @@ ezra({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by Lucky Md*`;
+    const cap = `*Screenshot taken by Timnasa Md*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -262,7 +262,7 @@ ezra({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by Lucky Md*`;
+    const cap = `*Screenshot taken by Timnasa Md*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -294,7 +294,7 @@ ezra({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by Lucky Md*`;
+    const cap = `*Screenshot taken by TIMNASA Md*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -325,7 +325,7 @@ ezra({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by Lucky Md*`;
+    const cap = `*Screenshot taken by TIMNASA Md*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -356,7 +356,7 @@ ezra({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by Lucky Md*`;
+    const cap = `*Screenshot taken by TIMNASA Md*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -388,7 +388,7 @@ ezra({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by Lucky Md*`;
+    const cap = `*Screenshot taken by TIMNASA Md*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -420,7 +420,7 @@ ezra({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by Lucky Md*`;
+    const cap = `*Screenshot taken by TIMNASA Md*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -452,7 +452,7 @@ ezra({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by Lucky Md*`;
+    const cap = `*Screenshot taken by TIMNASA Md*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -484,7 +484,7 @@ ezra({
 
   try {
     // Caption for the screenshot
-    const cap = `*Screenshot taken by Lucky Md*`;
+    const cap = `*Screenshot taken by TIMNASA Md*`;
 
     // Check if a URL is provided
     if (!arg[0]) {
@@ -537,7 +537,7 @@ ezra({
     for (let i = 0; i < Math.min(results.length, 5); i++) {
       zk.sendMessage(dest, {
         image: { url: results[i].url },
-        caption: `*Downloaded by ${conf.BOT}*`,
+        caption: `*Downloaded by TIMNASA MD ${conf.BOT}*`,
         contextInfo: {
           externalAdReply: {
             title: "Image Search Result",
@@ -605,7 +605,7 @@ ezra({
 
       await zk.sendMessage(origineMessage, {
         image: { url: imageUrl },
-        caption: `*Downloaded by ${conf.BOT}*`,
+        caption: `*Downloaded by TIMNASA MD ${conf.BOT}*`,
         contextInfo: {
           externalAdReply: {
             title: "Image Search Result",
@@ -637,7 +637,7 @@ ezra({
 
       await zk.sendMessage(origineMessage, {
         image: { url: imageUrl },
-        caption: `*Downloaded by ${conf.BOT}*`,
+        caption: `*Downloaded by TIMNASA MD ${conf.BOT}*`,
         contextInfo: {
           externalAdReply: {
             title: "Image Search Result",
@@ -669,7 +669,7 @@ ezra({
 
       await zk.sendMessage(origineMessage, {
         image: { url: imageUrl },
-        caption: `*Downloaded by ${conf.BOT}*`,
+        caption: `*Downloaded by TIMNASA MD ${conf.BOT}*`,
         contextInfo: {
           externalAdReply: {
             title: "Image Search Result",
@@ -701,7 +701,7 @@ ezra({
 
       await zk.sendMessage(origineMessage, {
         image: { url: imageUrl },
-        caption: `*Downloaded by ${conf.BOT}*`,
+        caption: `*Downloaded by TIMNASA MD ${conf.BOT}*`,
         contextInfo: {
           externalAdReply: {
             title: "Image Search Result",
@@ -732,7 +732,7 @@ ezra({
     const imageUrl = `https://api.popcat.xyz/lulcat?text=${text}`;
     message.sendMessage(user, {
       'image': { 'url': imageUrl },
-      'caption': "*powered by LUCKY-MD*"
+      'caption': "*powered by TIMNASA-MD*"
     }, { 'quoted': ms });
   } catch (error) {
     console.error("Error:", error.message || "An error occurred");
@@ -755,7 +755,7 @@ ezra({
     const imageUrl = `https://api.popcat.xyz/sadcat?text=${text}`;
     message.sendMessage(user, {
       'image': { 'url': imageUrl },
-      'caption': "*powered by LUCKY-MD*"
+      'caption': "*powered by TIMNASA-MD*"
     }, { 'quoted': ms });
   } catch (error) {
     console.error("Error:", error.message || "An error occurred");
@@ -778,7 +778,7 @@ ezra({
     const imageUrl = `https://api.popcat.xyz/nokia?image=${text}`;
     message.sendMessage(user, {
       'image': { 'url': imageUrl },
-      'caption': "*powered by LUCKY-MD*"
+      'caption': "*powered by TIMNASA-MD*"
     }, { 'quoted': ms });
   } catch (error) {
     console.error("Error:", error.message || "An error occurred");
@@ -801,7 +801,7 @@ ezra({
     const imageUrl = `https://api.popcat.xyz/unforgivable?text=${text}`;
     message.sendMessage(user, {
       'image': { 'url': imageUrl },
-      'caption': "*powered by LUCKY-MD*"
+      'caption': "*powered by TIMNASA-MD*"
     }, { 'quoted': ms });
   } catch (error) {
     console.error("Error:", error.message || "An error occurred");
@@ -824,7 +824,7 @@ ezra({
     const imageUrl = `https://api.popcat.xyz/pooh?text1=&text2=${text}`;
     message.sendMessage(user, {
       'image': { 'url': imageUrl },
-      'caption': "*powered by LUCKY-MD*"
+      'caption': "*powered by TIMNASA-MD*"
     }, { 'quoted': ms });
   } catch (error) {
     console.error("Error:", error.message || "An error occurred");
@@ -847,7 +847,7 @@ ezra({
     const imageUrl = `https://api.popcat.xyz/oogway?text=${text}`;
     message.sendMessage(user, {
       'image': { 'url': imageUrl },
-      'caption': "*powered by LUCKY-MD*"
+      'caption': "*powered by TIMNASA-MD*"
     }, { 'quoted': ms });
   } catch (error) {
     console.error("Error:", error.message || "An error occurred");
@@ -870,7 +870,7 @@ ezra({
     const imageUrl = `https://api.popcat.xyz/biden?text=${text}`;
     message.sendMessage(user, {
       'image': { 'url': imageUrl },
-      'caption': "*powered by LUCKY-MD*"
+      'caption': "*powered by TIMNASA-MD*"
     }, { 'quoted': ms });
   } catch (error) {
     console.error("Error:", error.message || "An error occurred");
@@ -892,7 +892,7 @@ ezra({
     const imageUrl = `https://api.popcat.xyz/drip?image=${arg.join(" ")}`;
     message.sendMessage(user, {
       'image': { 'url': imageUrl },
-      'caption': "*powered by LUCKY-MD*"
+      'caption': "*powered by TIMNASA-MD*"
     }, { 'quoted': ms });
   } catch (error) {
     console.error("Error:", error.message || "An error occurred");
@@ -915,7 +915,7 @@ ezra({
     const imageUrl = `https://api.popcat.xyz/clown?text=${text}`;
     message.sendMessage(user, {
       'image': { 'url': imageUrl },
-      'caption': "*powered by LUCKY-MD*"
+      'caption': "*powered by TIMNASA-MD*"
     }, { 'quoted': ms });
   } catch (error) {
     console.error("Error:", error.message || "An error occurred");
@@ -941,7 +941,7 @@ ezra({
       'image': {
         'url': generatedImageUrl
       },
-      'caption': "*powered by LUCKY-MD*"
+      'caption': "*powered by TIMNASA-MD*"
     }, {
       'quoted': messageInstance
     });
@@ -968,7 +968,7 @@ ezra({
       'image': {
         'url': extractedTextUrl
       },
-      'caption': "*powered by LUCKY-MD*"
+      'caption': "*powered by TIMNASA-MD*"
     }, {
       'quoted': messageInstance
     });
@@ -995,7 +995,7 @@ ezra({
       'image': {
         'url': generatedImageUrl
       },
-      'caption': "*powered by LUCKY-MD*"
+      'caption': "*powered by TIMNASA-MD*"
     }, {
       'quoted': messageInstance
     });
@@ -1024,7 +1024,7 @@ ezra({
       'image': {
         'url': generatedImageUrl
       },
-      'caption': "*powered by LUCKY-MD*"
+      'caption': "*powered by TIMNASA-MD*"
     }, {
       'quoted': messageInstance
     });
@@ -1051,7 +1051,7 @@ ezra({
       'image': {
         'url': beautifiedImageUrl
       },
-      'caption': "*powered by LUCKY-MD*"
+      'caption': "*powered by TIMNASA-MD*"
     }, {
       'quoted': messageInstance
     });
