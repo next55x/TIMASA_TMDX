@@ -1,9 +1,9 @@
-const {ezra }= require ('../fredi/ezra') ;
-const {addstickcmd, deleteCmd, getCmdById, inStickCmd , getAllStickCmds} = require('../luckydatabase/stickcmd') ;
+const {zokou }= require ('../framework/zokou') ;
+const {addstickcmd, deleteCmd, getCmdById, inStickCmd , getAllStickCmds} = require('../bdd/stickcmd') ;
 
 
 
-ezra(
+zokou(
     {
         nomCom : 'setcmd',
         categorie : 'stickcmd'
@@ -30,7 +30,7 @@ ezra(
 
     }) ; 
 
-    ezra(
+    zokou(
       {
           nomCom: 'delcmd',
           categorie: 'stickcmd'
@@ -62,7 +62,7 @@ ezra(
   );
   
 
-  ezra(
+  zokou(
     {
         nomCom: 'allcmd',
         categorie: 'stickcmd'
