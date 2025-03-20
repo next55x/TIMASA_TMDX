@@ -189,12 +189,12 @@ ezra({
   let _0x52c320 = await _0x4cdb8c.groupFetchAllParticipating();
   let _0x254221 = Object.entries(_0x52c320).slice(0x0).map(_0x35bfa1 => _0x35bfa1[0x1]);
   let _0x115598 = _0x254221.map(_0x6b0f9 => _0x6b0f9.id);
-  await _0xb269b7("*LUCKY_MD is sending this message to all groups you are in*...");
+  await _0xb269b7("*TIMNASA_MD is sending this message to all groups you are in*...");
   for (let _0x398282 of _0x115598) {
-    let _0x25a35f = "‼️‼️LUCKY_𝐌𝐃 𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓️‼️️‼️\n\n❗*message* : " + _0x1360fc + "\n\n️‼️ *Author*: " + _0x271224;
+    let _0x25a35f = "‼️‼️𝐓𝐈𝐌𝐍𝐀𝐒𝐀_𝐌𝐃 𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓️‼️️‼️\n\n❗*message* : " + _0x1360fc + "\n\n️‼️ *Author*: " + _0x271224;
     await _0x4cdb8c.sendMessage(_0x398282, {
       'image': {
-        'url': "https://i.imgur.com/hRP6xPl.jpeg"
+        'url': "https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31"
       },
       'caption': '' + _0x25a35f
     });
@@ -483,13 +483,13 @@ ezra({
       let _0x5838c2 = _0x269fcd.name || _0x269fcd.notify || "[LUCKY] +" + _0x23a8f8;
       _0x4a6ecd += "BEGIN:VCARD\nVERSION:3.0\nFN:" + _0x5838c2 + "\nTEL;type=CELL;type=VOICE;waid=" + _0x23a8f8 + ':+' + _0x23a8f8 + "\nEND:VCARD\n";
     }
-    await _0x2e5b52("A moment, *LUCKY-MD* is compiling " + _0x267c2d.length + " contacts into a vcf...");
+    await _0x2e5b52("A moment, *TIMNASA-MD* is compiling " + _0x267c2d.length + " contacts into a vcf...");
     await _0x511dab.writeFileSync("./contacts.vcf", _0x4a6ecd.trim());
     await _0xbcbdad.sendMessage(_0x1ec21c, {
       'document': _0x511dab.readFileSync("./contacts.vcf"),
       'mimetype': "text/vcard",
       'fileName': _0x38463f.subject + '.Vcf',
-      'caption': "VCF for " + _0x38463f.subject + "\nTotal Contacts: " + _0x267c2d.length + "\n*KEEP USING LUCKY_MD*"
+      'caption': "VCF for " + _0x38463f.subject + "\nTotal Contacts: " + _0x267c2d.length + "\n*KEEP USING TIMNASA_MD*"
     }, {
       'ephemeralExpiration': 0x15180,
       'quoted': _0x48a83b
@@ -520,7 +520,7 @@ ezra({
   try {
     const _0x35f332 = await _0x75673b.groupInviteCode(_0x5b6e86);
     const _0x1ccce3 = "https://chat.whatsapp.com/" + _0x35f332;
-    const _0x5e291d = "Hello " + _0x3fb091 + ", here is the group link of " + _0x200b30 + ":\n\nClick Here To Join: " + _0x1ccce3;
+    const _0x5e291d = "Hello " + _0x3fb091 + ", here is the group link of " + _0x200b30 + ":\n\nClick Here To Join 𝚙𝚘𝚠𝚎𝚛 𝚋𝚢 𝚝𝚒𝚖𝚗𝚊𝚜𝚊: " + _0x1ccce3;
     _0x89d41d(_0x5e291d);
   } catch (_0x926163) {
     console.error("Error fetching group invite link:", _0x926163.message || _0x926163);
