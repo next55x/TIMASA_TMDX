@@ -46,7 +46,7 @@ const date = moment().format('DD/MM/YYYY');
  ${message}
  
  
- *𝐓𝐈𝐌𝐍𝐀𝐒𝐀 𝐓𝐌𝐃 2025*`
+ *𝐓𝐈𝐌𝐍𝐀𝐒𝐀 𝐓𝐌𝐃*`
 
  if (lien.match(/\.(mp4|gif)$/i)) {
     try {
@@ -74,7 +74,7 @@ else {
 }
 
     } else {
-        if(!superUser) { repondre("Hello 𝚃𝙸𝙼𝙽𝙰𝚂𝙰 𝙳𝙴𝚃𝙴𝚂𝚃𝙴𝙳 𝚃𝙴𝙲𝙷 Is A Live 24hrs Enjoy To Use All Time🤗") ; return};
+        if(!superUser) { repondre("Hello 𝚃𝙸𝙼𝙽𝙰𝚂𝙰 𝙳𝙴𝚃𝙴𝚂𝚃𝙴𝙳 𝚃𝙴𝙲𝙷 𝙸𝚜 𝚊𝚕𝚒𝚟𝚎 𝟸𝟺𝚑𝚘𝚞𝚛𝚜 𝙴𝚗𝚓𝚘𝚢 𝚃𝚘 𝚞𝚊𝚎 𝙰𝚕𝚕 𝚃𝚒𝚖𝚎🤗") ; return};
 
       await   repondre("You have not yet saved your alive, to do this;  enter after alive your message and your image or video link in this context: .alive message;lien");
          repondre("don't do fake thinks :)")
