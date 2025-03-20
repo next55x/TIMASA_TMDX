@@ -5,7 +5,7 @@ const conf = require(__dirname + '/../set');
 
 /** ✅ YouTube MP3 Download */
 ezra({
-  nomCom: "play",
+  nomCom: "play1",
   aliases: ["song", "mp3"],
   categorie: "tools",
   reaction: "🎧"
