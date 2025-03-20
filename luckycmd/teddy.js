@@ -6,7 +6,7 @@ let teddyState = {};
 ezra({
   nomCom: "teddy",
   type: "fun",
-  info: "Cute teddy command for Lucky MD project",
+  info: "Cute teddy command for Timnasa MD project",
   on: "text",
   filename: __filename,
 }, async (dest, zk, commandeOptions) => {
