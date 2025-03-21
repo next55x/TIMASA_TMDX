@@ -70,10 +70,10 @@ ezra({ nomCom: "logo", categorie: "Search", reaction: "🤭" }, async (dest, zk,
     const contextInfo = {
       mentionedJid: [ms.sender], // Mention the sender
       externalAdReply: {
-        title: "🍂 𝐋𝐔𝐂𝐊𝐘-𝚳𝐃 🤦",
-        body: "Regards, Frediezra",
-        thumbnailUrl: "https://files.catbox.moe/7irwqn.jpeg",
-        sourceUrl: "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f",
+        title: "🍂 𝚃𝙸𝙼𝙽𝙰𝚂𝙰-𝚃𝙼𝙳 🤦",
+        body: "Regards, timnasa-tech",
+        thumbnailUrl: "https://files.catbox.moe/n4fjap.jpg",
+        sourceUrl: "https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31",
         mediaType: 1,
         renderLargerThumbnail: true,
       },
@@ -258,7 +258,7 @@ ezra({ nomCom: "logo", categorie: "Search", reaction: "🤭" }, async (dest, zk,
         if (logoUrl) {
           await zk.sendMessage(dest, {
             image: { url: logoUrl },
-            caption: `*Created logo by Lucky Md*`,
+            caption: `*Created logo by 𝚃𝙸𝙼𝙽𝙰𝚂𝙰 𝙼𝙳*`,
           }, { quoted: ms });
         }
       }
