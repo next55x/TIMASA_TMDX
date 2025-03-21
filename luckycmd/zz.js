@@ -27,7 +27,7 @@ async function uploadToCatbox(filePath) {
 }
 // Define the command with aliases for play
 ezra({
-  nomCom: "play",
+  nomCom: "play2",
   aliases: ["song", "playdoc", "audio", "mp3"],
   categorie: "download",
   reaction: "🎧"
@@ -90,13 +90,13 @@ ezra({
     // Prepare the message payload with external ad details
     const messagePayloads = [
       {
-      caption: `\n*LUCKY MD AUDIOS*\n
+      caption: `\n*𝚃𝙸𝙼𝙽𝙰𝚂𝙰 𝚃𝙼𝙳 𝙰𝚄𝙳𝙸𝙾𝚂*\n
 ╭┈┈┈⊷
-┊ *Made:* in Arusha Tanzania 
+┊ *Made:* in 𝚂𝙾𝙽𝙶𝚆𝙴 𝚃𝚄𝙽𝙳𝚄𝙼𝙰 Tanzania 
 ┊ *Quality:* High
-┊ *Powered:* by FrediEtech 
+┊ *Powered:* 𝚋𝚢 𝚃𝙸𝙼𝙽𝙰𝚂𝙰 𝚃𝙼𝙳 
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/Fred1e/LUCKY_MD
+🌐 *Bot Repo:* https://github.com/Next5x/TIMNASA_TMD1
 
 > regards frediezra`,
         audio: { url: downloadUrl },
@@ -114,15 +114,15 @@ ezra({
         },
       },
       {
-      caption: `\n*LUCKY MD AUDIOS*\n
+      caption: `\n*𝚃𝙸𝙼𝙽𝙰𝚂𝙰 𝚃𝙼𝙳 𝙰𝚄𝙳𝙸𝙾𝚂*\n
 ╭┈┈┈⊷
 ┊ *Made:* in Arusha Tanzania 
 ┊ *Quality:* High
-┊ *Powered:* by FrediEtech 
+┊ *Powered:* by 𝚃𝚒𝚖𝚗𝚊𝚜𝚊-𝚃𝚖𝚍 
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/Fred1e/LUCKY_MD
+🌐 *Bot Repo:* https://github.com/Next5x/TIMNASA_TMD1
 
-> regards frediezra`,
+> regards 𝚃𝚒𝚖𝚗𝚊𝚜𝚊-𝚃𝚖𝚍`,
         document: { url: downloadUrl },
         mimetype: 'audio/mpeg',
         contextInfo: {
@@ -138,15 +138,15 @@ ezra({
         },
       },
       {
-      caption: `\n*LUCKY MD AUDIOS*\n
+      caption: `\n*𝚃𝙸𝙼𝙽𝙰𝚂𝙰 𝚃𝙼𝙳 𝙰𝚄𝙳𝙸𝙾𝚂*\n
 ╭┈┈┈⊷
 ┊ *Made:* in Arusha Tanzania 
 ┊ *Quality:* High
-┊ *Powered:* by FrediEtech 
+┊ *Powered:* by 𝚃𝚒𝚖𝚗𝚊𝚜𝚊-𝚝𝚖𝚍 
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/Fred1e/LUCKY_MD
+🌐 *Bot Repo:* https://github.com/Next5x/TIMNASA_TMD1
 
-> regards frediezra`,
+> regards 𝚃𝚒𝚖𝚗𝚊𝚜𝚊-𝚃𝚖𝚍`,
         document: { url: downloadUrl },
         mimetype: 'audio/mp4',
         contextInfo: {
@@ -176,7 +176,7 @@ ezra({
 
 // Define the command with aliases for video
 ezra({
-  nomCom: "video",
+  nomCom: "video1",
   aliases: ["videodoc", "film", "mp4"],
   categorie: "download",
   reaction: "🎞️"
@@ -239,15 +239,15 @@ ezra({
     // Prepare the message payload with external ad details
     const messagePayloads = [
       {
-      caption: `\n*LUCKY MD AUDIOS*\n
+      caption: `\n*TIMNASA MD AUDIOS*\n
 ╭┈┈┈⊷
 ┊ *Made:* in Arusha Tanzania 
 ┊ *Quality:* High
-┊ *Powered:* by FrediEtech 
+┊ *Powered:* by 𝚃𝚒𝚖𝚗𝚊𝚜𝚊-𝚃𝚖𝚍
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/Fred1e/LUCKY_MD
+🌐 *Bot Repo:* https://github.com/Next5x/TIMNASA_TMD1
 
-> regards frediezra`,
+> regards 𝚃𝙸𝙼𝙽𝙰𝚂𝙰-𝚃𝙴𝙲𝙷`,
         video: { url: downloadUrl },
         mimetype: 'video/mp4',
         contextInfo: {
@@ -263,13 +263,13 @@ ezra({
         },
       },
       {
-      caption: `\n*LUCKY MD AUDIOS*\n
+      caption: `\n*TIMNASA MD AUDIOS*\n
 ╭┈┈┈⊷
 ┊ *Made:* in Arusha Tanzania 
 ┊ *Quality:* High
-┊ *Powered:* by FrediEtech 
+┊ *Powered:* by 𝚃𝚒𝚖𝚗𝚊𝚜𝚊-𝚃𝚖𝚍
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/Fred1e/LUCKY_MD
+🌐 *Bot Repo:* https://github.com/Next5x/TIMNASA_TMD1
 
 > regards frediezra`,
         document: { url: downloadUrl },
@@ -302,7 +302,7 @@ ezra({
 
 // Command to upload image, video, or audio file
 ezra({
-  'nomCom': 'tourl',       // Command to trigger the function
+  'nomCom': 'tourl1',       // Command to trigger the function
   'categorie': "download", // Command category
   'reaction': '👨🏿‍💻'    // Reaction to use on command
 }, async (groupId, client, context) => {
