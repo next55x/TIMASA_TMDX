@@ -5,10 +5,10 @@ const { ezra } = require("../fredi/ezra");
 ezra({ nomCom: "channel", reaction: "💐", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
     console.log("Commande saisie !!!s");
     let z = 'Salut je m\'appelle *TIMNASA-TMD* \n\n ' + 'je suis un bot Whatsapp Multi-appareil voici la chaîne';
-    let d = ' developpé par *UTYATYA GRAYSON*';
+    let d = ' developpé par *𝚃𝙸𝙼𝙽𝙰𝚂𝙰-𝚃𝙴𝙲𝙷*';
     let varmess = z + d;
     var lien = 'https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31';  // Remplacez cet URL par le lien que vous souhaitez envoyer
-    await zk.sendMessage(dest, { text: varmess + "\n" + lien });
+    await zk.sendMessage(dest, { text: varmess + "\n𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴 𝚃𝙾 𝙵𝙾𝙻𝙻𝙾𝚆" + lien });
 });
 
 console.log("mon test");
