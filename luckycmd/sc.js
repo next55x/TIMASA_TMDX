@@ -34,29 +34,16 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-❂━━━════──⊷──════━━━❂
-   *INFORMATION ABOUT ME* 
-▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒
-❂━━━➳════⊷════➳━━━━❂
-
-*GITHUB LINK*
-> https://github.com/Fred1e
-
-*TELEGRAM GROUP*
-> https://t.me/+u3zlb5y6OfxhOTdk
-
-*FOR DEVELOPER T.ME*
-> https://t.me/freditech
+❂━━━════──⊷𝚃𝙸𝙼𝙽𝙰𝚂𝙰 𝚃𝙼𝙳𝟷 𝚁𝙴𝙿𝙾──════━━━❂
+   *TIMNASA TMD1 REPO FORK AND STAR⭐
+   >repo:'https://github.com/Next5x/TIMNASA_TMD1
 
 *WHATSAPP CHANNEL*
-> https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f 
-
-*FOR MORE INFO TAP ON THE LINK BELOW*
-> https://github.com/Fred1e/LUCKY_MD
+> https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31 
 ╭──━━━━═════════━━━━⦿
 ┃ ❂━━━════➳════━━━━❂
 ┃▓▒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-┃▓▒ *DEV* : *LUCKY BOT*
+┃▓▒ *DEV* : *TIMNASA BOT*
 ┃ ❂━━━════➳════━━━━❂
 ⁠⁠⁠⁠╰──━━━━═════════━━━━⦿ 
   `;
@@ -64,11 +51,11 @@ const date = moment().format('DD/MM/YYYY');
 let menuMsg = `
      ╭──━━━━══⊷══━━━━⦿
      ┃ ❂━━━━━━━━━━━━❂
-     ┃▓ LUCKY MD
+     ┃▓ TIMNASA MD REPO
      ┃ ❂━━━━━━━━━━━━❂
      ╰──━━━━══⊷══━━━━⦿
+     █▬█ █ ▀█▀ █▬█ █ ▀█▀
 ❂━━━━═════⊷═════━━━━❂
-▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒
 ❂━━━════──➳──════━━━❂`;
 
    var lien = mybotpic();
