@@ -14,7 +14,7 @@ const conf = require('../set');
 
 ezra(
   {
-    nomCom: 'ping',
+    nomCom: 'ping1',
     categorie: 'General',
     reaction: '🚀',
     alias: ['p']
@@ -33,7 +33,7 @@ ezra(
     const end = new Date().getTime();
     const ping = end - start;
     await zk.sendMessage(dest, {
-      text: `*𝚃𝙸𝙼𝙽𝙰𝚂𝙰 𝙿𝙸𝙽𝙶 𝙿𝙾𝙽𝙶 𝚂𝙿𝙴𝙴𝙳 𝙸𝚂🚀999999999🚀...*
+      text: `*Pong*
  *${ping} ms*`, edit: {
         id: msg.key.id, remoteJid: dest
       }});
