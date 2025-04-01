@@ -5,7 +5,7 @@ const s = require(__dirname + "/../set");
 
 ezra(
     {
-        nomCom : 'alive',
+        nomCom : 'menu',
         categorie : 'General'
         
     },async (dest,zk,commandeOptions) => {
