@@ -1,12 +1,12 @@
 
 
 {
-  "bot-name": "✧⁠LUCKY_MD✧ MULT DEVICE",
-  "description": "Lucky Whatsapp device bot made by FrediEzra to help Whatsapp users to enjoy while helping...",
+  "bot-name": "✧TIMNASA_TMD1✧ MULT DEVICE",
+  "description": "Timnasa Whatsapp device bot made by Timnasadetested to help Whatsapp users to enjoy while helping...",
   "logo": "https://files.catbox.moe/7irwqn.jpeg",
-  "keywords": ["Fredi-Ezra", "Lucky-Md", "mdtech"],
-  "documentation-link": "https://fredietech.onrender.com",
-  "owner-verification":"frediezra360@gmail.com",
+  "keywords": ["Fredi-Ezra", "timnasa-Md", "mdtech"],
+  "documentation-link": "https://timnasa-md42.onrender.com",
+  "owner-verification":"timotheomgaya@gmail.com",
   "env": {
     "PREFIX":
     {
@@ -73,7 +73,7 @@
     },
     "BOT_NAME": {
       "description": "you must give a name for you bot uhh??!!",
-      "value": "✧⁠LUCKY_MD✧",
+      "value": "✧TIMNASA_MD✧",
       "required": false 
     },
     "PUBLIC_MODE": {
@@ -98,7 +98,7 @@
     },
     "OWNER_NAME": {
       "description": "don't you have a name bro.Insert your name here!!",
-      "value": "FrediEzra",
+      "value": "TIMNASA-TMD",
       "required": false
     },
     "URL": {
@@ -113,12 +113,12 @@
     },
     "NUMERO_OWNER": {
       "description": "Your phone number (exclude '+' and area code, e.g., '255752593977')",
-      "value": "255752593977",
+      "value": "255624167385",
       "required": false
     },
     "WARN_COUNT": {
       "description": "Set the warning limit for warning commands",
-      "value": "5",
+      "value": "3",
       "required": false
     },
     "STARTING_BOT_MESSAGE": {
@@ -128,7 +128,7 @@
     },
     "PRESENCE": {
       "description": "Mark your presence: 1 for online, 2 for typing, 3 for recording, or leave blank for real state",
-      "value": "1",
+      "value": "2",
       "required": false
     },
     "ANTI_DELETE_MESSAGE": {
