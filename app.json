@@ -7,7 +7,7 @@
     "baileys",
     "whatsapp"
   ],
-  "logo": "https://files.catbox.moe/7irwqn.jpeg",
+  "logo": "picha error",
   "repository": "https://github.com/next55x/TIMASA_TMDX",
   "succes_url": "/",
   "stack": "container",
@@ -61,7 +61,7 @@
     },
     "AUTO_STATUS_TEXT": {
       "description": "type your genuine status message",
-      "value": "viewed ✅✅",
+      "value": "viewed by timnasa✅✅",
       "required": false
     },
     "AUTO_STATUS_REPLY": {
@@ -101,12 +101,12 @@
     },
     "OWNER_NAME": {
       "description": "don't you have a name bro.Insert your name here!!",
-      "value": "FrediEzra",
+      "value": "TIMNASA-TMD1",
       "required": false
     },
     "URL": {
       "description": "you must add your bot image url.Get your image url now and fill it here",
-      "value": "https://files.catbox.moe/7irwqn.jpeg",
+      "value": "picha error",
       "required": true
     },
     "AUTO_READ_MESSAGES": {
@@ -116,12 +116,12 @@
     },
     "NUMERO_OWNER": {
       "description": "Your phone number (exclude '+' and area code, e.g., '255752593977')",
-      "value": "255752593977",
+      "value": "255784766591,255756469954",
       "required": false
     },
     "WARN_COUNT": {
       "description": "Set the warning limit for warning commands",
-      "value": "5",
+      "value": "3",
       "required": false
     },
     "STARTING_BOT_MESSAGE": {
