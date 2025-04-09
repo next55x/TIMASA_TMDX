@@ -22,4 +22,4 @@ COPY . .
 
 EXPOSE 5000
 
-CMD ["npm", "run" , "Timnasa"]
+CMD ["npm", "run" , "lucky"]
