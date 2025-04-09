@@ -8,7 +8,7 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
 module.exports = { session: process.env.SESSION_ID || 'ezra',
-    PREFIXE: process.env.PREFIX || "+",
+    PREFIXE: process.env.PREFIX || "/",
     GITHUB : process.env.GITHUB|| 'https://github.com/next55x/TIMASA_TMDX',
     OWNER_NAME : process.env.OWNER_NAME || "TIMNASA-TMD",
     NUMERO_OWNER : process.env.NUMERO_OWNER || "255784766591",  
